@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "bb651770-0eec-4a07-a111-6688ed0bfdf3",
+		"name": "File-Encode-Decode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36209248"
+	},
+	"item": [
+		{
+			"name": "encode-file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}{{CONTEXT_PATH}}/api/files/encode-file",
+					"host": [
+						"{{BASE_URL}}{{CONTEXT_PATH}}"
+					],
+					"path": [
+						"api",
+						"files",
+						"encode-file"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "decode-file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}{{CONTEXT_PATH}}/api/files/decode-file",
+					"host": [
+						"{{BASE_URL}}{{CONTEXT_PATH}}"
+					],
+					"path": [
+						"api",
+						"files",
+						"decode-file"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
